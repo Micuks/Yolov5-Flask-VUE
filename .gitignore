@@ -1,0 +1,4 @@
+*.bak
+*.jpg
+*.jpeg
+back-end/uploads/*
