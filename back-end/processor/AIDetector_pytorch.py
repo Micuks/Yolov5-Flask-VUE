@@ -1,7 +1,9 @@
 import torch
 import numpy as np
 from models.experimental import attempt_load
-from utils.general import non_max_suppression, scale_coords, letterbox
+#from utils.general import non_max_suppression, scale_coords, letterbox
+from utils.general import non_max_suppression, scale_coords
+from utils.datasets import letterbox
 from utils.torch_utils import select_device
 import cv2
 from random import randint
